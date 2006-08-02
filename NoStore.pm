@@ -19,15 +19,13 @@ chain.
 
 =head1 VERSION
 
-version 6212.235
+version 6213.124
 
 =cut
 
-our $VERSION = '6212.235';
+our $VERSION = '6213.124';
 
 =head2 CONTENTS
-
-Bundle::Email                      0.040 - a bundle to install the main set of Email:: modules          
 
 Email::Abstract                    2.13  - unified interface to mail representations                    
 
@@ -73,23 +71,13 @@ Email::Reply                       1.20  - Reply to a Message
 
 Email::Send                        2.171 - Simply Sending Email                                         
 
-Email::Simple                      1.96  - Simple parsing of RFC2822 message format and headers         
+Email::Simple                      1.97  - Simple parsing of RFC2822 message format and headers         
 
 Email::Simple::Creator             1.41  - Email::Simple constructor for starting anew.                 
 
 Email::Simple::FromHandle          0.011 - an Email::Simple but from a handle                           
 
 Email::Simple::Headers             1.02  - Get a List of Headers From Simple Objects                    
-
-Email::Store                       0.25  - Framework for database-backed email storage                  
-
-Email::Store::HTML                 0.301 - various HTML related functions for Email::Store::Mail        
-
-Email::Store::Plucene              0.02  - Search your Email::Store with Plucene                        
-
-Email::Store::Summary              1.3   - Provide subject and first-sentence for a mail                
-
-Email::Store::Thread               1.1   - Store threading information for a mail                       
 
 Email::Stuff                       2.03  - A more casual approach to creating and sending Email:: emails
 
@@ -102,6 +90,8 @@ Mail::Audit                        2.203 - Library for creating easy mail filter
 Mail::DeliveryStatus::BounceParser 1.512 - Perl extension to analyze bounce messages                    
 
 Mail::LocalDelivery                0.301 - Deliver mail to a local mailbox                              
+
+
 =head2 PERL EMAIL PROJECT
 
 This bundle is maintained by the Perl Email Project.
@@ -110,7 +100,7 @@ This bundle is maintained by the Perl Email Project.
 
 =head2 SEE ALSO
 
-http://emailproject.perl.org/wiki/Category:PEP-Maintained
+http://emailproject.perl.org/
 
 =head2 COPYRIGHT
 

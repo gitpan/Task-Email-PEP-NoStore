@@ -8,7 +8,6 @@ no_index:
     - inc
     - t
 requires: 
-  Bundle::Email: 0.040
   Email::Abstract: 2.13
   Email::Address: 1.86
   Email::Date: 1.101
@@ -31,19 +30,14 @@ requires:
   Email::MessageID: 1.35
   Email::Reply: 1.20
   Email::Send: 2.171
-  Email::Simple: 1.96
+  Email::Simple: 1.97
   Email::Simple::Creator: 1.41
   Email::Simple::FromHandle: 0.011
   Email::Simple::Headers: 1.02
-  Email::Store: 0.25
-  Email::Store::HTML: 0.301
-  Email::Store::Plucene: 0.02
-  Email::Store::Summary: 1.3
-  Email::Store::Thread: 1.1
   Email::Stuff: 2.03
   Email::Thread: 0.71
   Email::Valid: 0.176
   Mail::Audit: 2.203
   Mail::DeliveryStatus::BounceParser: 1.512
   Mail::LocalDelivery: 0.301
-version: 6212.235
+version: 6213.124
