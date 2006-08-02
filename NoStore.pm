@@ -19,11 +19,11 @@ chain.
 
 =head1 VERSION
 
-version 6213.124
+version 6213.194
 
 =cut
 
-our $VERSION = '6213.124';
+our $VERSION = '6213.194';
 
 =head2 CONTENTS
 
@@ -45,13 +45,11 @@ Email::Folder::IMAPS               1.10  - Email::Folder Access to IMAP over SSL
 
 Email::Folder::POP3                1.011 - Email::Folder Access to POP3 Folders                         
 
-Email::FolderType                  0.7   - determine the type of a mail folder                          
+Email::FolderType                  0.810 - determine the type of a mail folder                          
 
 Email::FolderType::Net             1.04  - Recognize folder types for network based message protocols.  
 
 Email::LocalDelivery               0.21  - Deliver a piece of email - simply                            
-
-Email::LocalDelivery::Ezmlm        0.10  - deliver mail into ezmlm archives                             
 
 Email::MIME                        1.85  - Easy MIME message parsing.                                   
 

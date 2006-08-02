@@ -17,10 +17,9 @@ requires:
   Email::Folder::IMAP: 1.10
   Email::Folder::IMAPS: 1.10
   Email::Folder::POP3: 1.011
-  Email::FolderType: 0.7
+  Email::FolderType: 0.810
   Email::FolderType::Net: 1.04
   Email::LocalDelivery: 0.21
-  Email::LocalDelivery::Ezmlm: 0.10
   Email::MIME: 1.85
   Email::MIME::Attachment::Stripper: 1.311
   Email::MIME::ContentType: 1.01
@@ -40,4 +39,4 @@ requires:
   Mail::Audit: 2.203
   Mail::DeliveryStatus::BounceParser: 1.512
   Mail::LocalDelivery: 0.301
-version: 6213.124
+version: 6213.194
