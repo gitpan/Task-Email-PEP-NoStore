@@ -19,15 +19,15 @@ chain.
 
 =head1 VERSION
 
-version 6213.194
+version 6233.124
 
 =cut
 
-our $VERSION = '6213.194';
+our $VERSION = '6233.124';
 
 =head2 CONTENTS
 
-Email::Abstract                    2.13  - unified interface to mail representations                    
+Email::Abstract                    2.131 - unified interface to mail representations                    
 
 Email::Address                     1.86  - RFC 2822 Address Parsing and Creation                        
 
@@ -37,7 +37,7 @@ Email::Delete                      1.02  - Delete Messages from Folders
 
 Email::Filter                      1.03  - Library for creating easy email filters                      
 
-Email::Folder                      0.851 - read all the messages from a folder as Email::Simple objects.
+Email::Folder                      0.852 - read all the messages from a folder as Email::Simple objects.
 
 Email::Folder::IMAP                1.10  - Email::Folder Access to IMAP Folders                         
 
@@ -45,23 +45,23 @@ Email::Folder::IMAPS               1.10  - Email::Folder Access to IMAP over SSL
 
 Email::Folder::POP3                1.011 - Email::Folder Access to POP3 Folders                         
 
-Email::FolderType                  0.810 - determine the type of a mail folder                          
+Email::FolderType                  0.811 - determine the type of a mail folder                          
 
 Email::FolderType::Net             1.04  - Recognize folder types for network based message protocols.  
 
 Email::LocalDelivery               0.21  - Deliver a piece of email - simply                            
 
-Email::MIME                        1.85  - Easy MIME message parsing.                                   
+Email::MIME                        1.851 - Easy MIME message parsing.                                   
 
 Email::MIME::Attachment::Stripper  1.311 - Strip the attachments from a mail                            
 
 Email::MIME::ContentType           1.01  - Parse a MIME Content-Type Header                             
 
-Email::MIME::Creator               1.45  - Email::MIME constructor for starting anew.                   
+Email::MIME::Creator               1.451 - Email::MIME constructor for starting anew.                   
 
 Email::MIME::Encodings             1.31  - A unified interface to MIME encoding and decoding            
 
-Email::MIME::Modifier              1.43  - Modify Email::MIME Objects Easily                            
+Email::MIME::Modifier              1.440 - Modify Email::MIME Objects Easily                            
 
 Email::MessageID                   1.35  - Generate world unique message-ids.                           
 
@@ -69,7 +69,7 @@ Email::Reply                       1.20  - Reply to a Message
 
 Email::Send                        2.171 - Simply Sending Email                                         
 
-Email::Simple                      1.97  - Simple parsing of RFC2822 message format and headers         
+Email::Simple                      1.980 - Simple parsing of RFC2822 message format and headers         
 
 Email::Simple::Creator             1.41  - Email::Simple constructor for starting anew.                 
 
@@ -85,7 +85,7 @@ Email::Valid                       0.176 - Check validity of Internet email addr
 
 Mail::Audit                        2.203 - Library for creating easy mail filters                       
 
-Mail::DeliveryStatus::BounceParser 1.512 - Perl extension to analyze bounce messages                    
+Mail::DeliveryStatus::BounceParser 1.514 - Perl extension to analyze bounce messages                    
 
 Mail::LocalDelivery                0.301 - Deliver mail to a local mailbox                              
 

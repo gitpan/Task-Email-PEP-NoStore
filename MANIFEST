@@ -15,4 +15,5 @@ MANIFEST			This list of files
 META.yml
 NoStore.pm
 README
+t/pod-coverage.t
 t/pod.t
