@@ -9,7 +9,7 @@ no_index:
     - t
 requires: 
   Email::Abstract: 2.131
-  Email::Address: 1.86
+  Email::Address: 1.861
   Email::Date: 1.101
   Email::Delete: 1.02
   Email::Filter: 1.03
@@ -20,23 +20,23 @@ requires:
   Email::FolderType: 0.812
   Email::FolderType::Net: 1.04
   Email::LocalDelivery: 0.21
-  Email::MIME: 1.851
+  Email::MIME: 1.853
   Email::MIME::Attachment::Stripper: 1.311
-  Email::MIME::ContentType: 1.01
+  Email::MIME::ContentType: 1.011
   Email::MIME::Creator: 1.451
-  Email::MIME::Encodings: 1.31
+  Email::MIME::Encodings: 1.310
   Email::MIME::Modifier: 1.440
   Email::MessageID: 1.35
   Email::Reply: 1.200
   Email::Send: 2.180
-  Email::Simple: 1.981
+  Email::Simple: 1.995
   Email::Simple::Creator: 1.41
   Email::Simple::FromHandle: 0.011
   Email::Simple::Headers: 1.02
   Email::Stuff: 2.03
   Email::Thread: 0.71
   Email::Valid: 0.176
-  Mail::Audit: 2.203
-  Mail::DeliveryStatus::BounceParser: 1.514
+  Mail::Audit: 2.211
+  Mail::DeliveryStatus::BounceParser: 1.516
   Mail::LocalDelivery: 0.301
-version: 6245.133
+version: 6284.193
