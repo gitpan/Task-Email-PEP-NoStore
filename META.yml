@@ -1,42 +1,53 @@
+--- 
 author: Ricardo SIGNES <rjbs@cpan.org>
 distribution_type: module
-generated_by: Module::Install version 0.64
+generated_by: Module::Install version 0.65
 license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
 name: Task-Email-PEP-NoStore
 no_index: 
   directory: 
     - inc
     - t
 requires: 
-  Email::Abstract: 2.131
-  Email::Address: 1.861
-  Email::Date: 1.101
-  Email::Delete: 1.02
-  Email::Filter: 1.03
-  Email::Folder: 0.852
-  Email::Folder::IMAP: 1.10
-  Email::Folder::IMAPS: 1.10
-  Email::Folder::POP3: 1.011
-  Email::FolderType: 0.812
-  Email::FolderType::Net: 1.04
-  Email::LocalDelivery: 0.21
-  Email::MIME: 1.853
-  Email::MIME::Attachment::Stripper: 1.311
-  Email::MIME::ContentType: 1.011
-  Email::MIME::Creator: 1.451
-  Email::MIME::Encodings: 1.310
-  Email::MIME::Modifier: 1.440
-  Email::MessageID: 1.35
-  Email::Reply: 1.200
-  Email::Send: 2.180
-  Email::Simple: 1.995
-  Email::Simple::Creator: 1.41
-  Email::Simple::FromHandle: 0.011
+  Email::ARF::Report: 0.003
+  Email::Abstract: 2.132
+  Email::Address: 1.887
+  Email::Date: 1.102
+  Email::Delete: 1.022
+  Email::Filter: 1.031
+  Email::Folder: 0.853
+  Email::Folder::IMAP: 1.102
+  Email::Folder::IMAPS: 1.102
+  Email::Folder::POP3: 1.012
+  Email::FolderType: 0.813
+  Email::FolderType::Net: 1.041
+  Email::LocalDelivery: 0.214
+  Email::MIME: 1.859
+  Email::MIME::Attachment::Stripper: 1.313
+  Email::MIME::ContentType: 1.014
+  Email::MIME::Creator: 1.452
+  Email::MIME::Encodings: 1.311
+  Email::MIME::Modifier: 1.441
+  Email::MessageID: 1.351
+  Email::Reply: 1.201
+  Email::Send: 2.187
+  Email::Send::IO: 2.200
+  Email::Simple: 1.999
+  Email::Simple::Creator: 1.420
+  Email::Simple::FromHandle: 0.050
   Email::Simple::Headers: 1.02
-  Email::Stuff: 2.03
-  Email::Thread: 0.71
-  Email::Valid: 0.176
-  Mail::Audit: 2.211
-  Mail::DeliveryStatus::BounceParser: 1.516
-  Mail::LocalDelivery: 0.301
-version: 6284.193
+  Email::Stuff: 2.04
+  Email::Thread: 0.711
+  Email::Valid: 0.179
+  Mail::Audit: 2.218
+  Mail::Audit::List: 1.851
+  Mail::Audit::PGP: 1.701
+  Mail::Audit::Razor: 1.801
+  Mail::DeliveryStatus::BounceParser: 1.517
+  Mail::LocalDelivery: 0.304
+  Mail::SpamAssassin::SimpleClient: 0.002
+  Net::Server::Mail: 0.14
+version: 7095.221
