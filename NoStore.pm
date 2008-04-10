@@ -19,91 +19,105 @@ chain.
 
 =head1 VERSION
 
-version 7095.221
+version 8100.021
 
 =cut
 
-our $VERSION = '7095.221';
+our $VERSION = '8100.021';
 
 =head2 CONTENTS
 
-Email::ARF::Report                 0.003 - interpret Abuse Reporting Format (ARF) messages               
+Data::Message                      1.011 - Parse and Reconstruct RFC2822 Compliant Messages             
 
-Email::Abstract                    2.132 - unified interface to mail representations                     
+Email::ARF::Report                 0.003 - interpret Abuse Reporting Format (ARF) messages              
 
-Email::Address                     1.882 - RFC 2822 Address Parsing and Creation                         
+Email::Abstract                    2.134 - unified interface to mail representations                    
 
-Email::Address                     1.887 - RFC 2822 Address Parsing and Creation                         
+Email::Address                     1.882 - RFC 2822 Address Parsing and Creation                        
 
-Email::Date                        1.102 - Find and Format Date Headers                                  
+Email::Address                     1.889 - RFC 2822 Address Parsing and Creation                        
 
-Email::Delete                      1.022 - Delete Messages from Folders                                  
+Email::Date                        1.103 - Find and Format Date Headers                                 
 
-Email::Filter                      1.031 - Library for creating easy email filters                       
+Email::Date::Format                1.002 - produce RFC 2822 date strings                                
 
-Email::Folder                      0.853 - read all the messages from a folder as Email::Simple objects. 
+Email::Delete                      1.022 - Delete Messages from Folders                                 
 
-Email::Folder::IMAP                1.102 - Email::Folder Access to IMAP Folders                          
+Email::Filter                      1.031 - Library for creating easy email filters                      
 
-Email::Folder::IMAPS               1.102 - Email::Folder Access to IMAP over SSL Folders                 
+Email::Folder                      0.854 - read all the messages from a folder as Email::Simple objects.
 
-Email::Folder::POP3                1.012 - Email::Folder Access to POP3 Folders                          
+Email::Folder::IMAP                1.102 - Email::Folder Access to IMAP Folders                         
 
-Email::FolderType                  0.813 - determine the type of a mail folder                           
+Email::Folder::IMAPS               1.102 - Email::Folder Access to IMAP over SSL Folders                
 
-Email::FolderType::Net             1.041 - Recognize folder types for network based message protocols.   
+Email::Folder::POP3                1.013 - Email::Folder Access to POP3 Folders                         
 
-Email::LocalDelivery               0.214 - Deliver a piece of email - simply                             
+Email::FolderType                  0.813 - determine the type of a mail folder                          
 
-Email::MIME                        1.859 - Easy MIME message parsing.                                    
+Email::FolderType::Net             1.041 - Recognize folder types for network based message protocols.  
 
-Email::MIME::Attachment::Stripper  1.313 - Strip the attachments from a mail                             
+Email::LocalDelivery               0.217 - Deliver a piece of email - simply                            
 
-Email::MIME::ContentType           1.014 - Parse a MIME Content-Type Header                              
+Email::MIME                        1.861 - Easy MIME message parsing.                                   
 
-Email::MIME::Creator               1.452 - Email::MIME constructor for starting anew.                    
+Email::MIME::Attachment::Stripper  1.314 - Strip the attachments from a mail                            
 
-Email::MIME::Encodings             1.311 - A unified interface to MIME encoding and decoding             
+Email::MIME::ContentType           1.014 - Parse a MIME Content-Type Header                             
 
-Email::MIME::Modifier              1.441 - Modify Email::MIME Objects Easily                             
+Email::MIME::Creator               1.454 - Email::MIME constructor for starting anew.                   
 
-Email::MessageID                   1.351 - Generate world unique message-ids.                            
+Email::MIME::Encodings             1.311 - A unified interface to MIME encoding and decoding            
 
-Email::Reply                       1.201 - Reply to a Message                                            
+Email::MIME::Modifier              1.442 - Modify Email::MIME Objects Easily                            
 
-Email::Send                        2.187 - Simply Sending Email                                          
+Email::MIME::XPath                 0.004 - access MIME documents via XPath queries                      
 
-Email::Send::IO                    2.200 - Send messages using IO operations                             
+Email::MessageID                   1.351 - Generate world unique message-ids.                           
 
-Email::Simple                      1.999 - Simple parsing of RFC2822 message format and headers          
+Email::Reply                       1.202 - Reply to a Message                                           
 
-Email::Simple::Creator             1.420 - Email::Simple constructor for starting anew                   
+Email::Send                        2.192 - Simply Sending Email                                         
 
-Email::Simple::FromHandle          0.050 - an Email::Simple but from a handle                            
+Email::Send::IO                    2.200 - Send messages using IO operations                            
 
-Email::Simple::Headers             1.02  - Get a List of Headers From Simple Objects                     
+Email::Send::IO                    2.200 - Send messages using IO operations                            
 
-Email::Stuff                       2.04  - A more casual approach to creating and sending Email:: emails 
+Email::Sender                      0.001 - it sends mail                                                
 
-Email::Thread                      0.711 - Use JWZ's mail threading algorithm with Email::Simple objects 
+Email::Simple                      2.003 - simple parsing of RFC2822 message format and headers         
 
-Email::Valid                       0.179 - Check validity of Internet email addresses                    
+Email::Simple::Creator             1.424 - build an Email::Simple object from scratch                   
 
-Mail::Audit                        2.218 - Library for creating easy mail filters                        
+Email::Simple::FromHandle          0.050 - an Email::Simple but from a handle                           
 
-Mail::Audit::List                  1.851 - Mail::Audit plugin for automatic list delivery                
+Email::Simple::Headers             1.030 - (DEPRECATED) get all headers of an Email::Simple             
 
-Mail::Audit::PGP                   1.701 - Mail::Audit plugin for PGP header fixing                      
+Email::Stuff                       2.04  - A more casual approach to creating and sending Email:: emails
 
-Mail::Audit::Razor                 1.801 - Mail::Audit plugin for the Vipul's Razor spam detection system
+Email::Thread                      0.711 - Use JWZ's mail threading algorithm with Email::Simple objects
 
-Mail::DeliveryStatus::BounceParser 1.517 - Perl extension to analyze bounce messages                     
+Email::Valid                       0.179 - Check validity of Internet email addresses                   
 
-Mail::LocalDelivery                0.304 - Deliver mail to a local mailbox                               
+MIME::Lite                         3.021 - low-calorie MIME generator                                   
 
-Mail::SpamAssassin::SimpleClient   0.002 - easy client to SpamAssassin's spamd                           
+Mail::Audit                        2.222 - Library for creating easy mail filters                       
 
-Net::Server::Mail                  0.14  - Class to easily create a mail server                          
+Mail::Audit::DKIM                  0.002 - Mail::Audit plugin for domain key verification               
+
+Mail::Audit::List                  1.852 - Mail::Audit plugin for automatic list delivery               
+
+Mail::Audit::PGP                   1.701 - Mail::Audit plugin for PGP header fixing                     
+
+Mail::DeliveryStatus::BounceParser 1.518 - Perl extension to analyze bounce messages                    
+
+Mail::LocalDelivery                0.304 - Deliver mail to a local mailbox                              
+
+Mail::LocalDelivery                0.304 - Deliver mail to a local mailbox                              
+
+Mail::SpamAssassin::SimpleClient   0.005 - easy client to SpamAssassin's spamd                          
+
+Net::Server::Mail                  0.16  - Class to easily create a mail server                         
 
 
 =head2 PERL EMAIL PROJECT
